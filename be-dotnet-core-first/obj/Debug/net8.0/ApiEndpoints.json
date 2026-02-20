@@ -1,5 +1,57 @@
 [
   {
+    "ContainingType": "be_dotnet_core_first.Controllers.ActivityController",
+    "Method": "GetActivityInfo",
+    "RelativePath": "api/Activity/GetActivityInfo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "be_dotnet_core_first.Params.GetActivityInfoOutput",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "be_dotnet_core_first.Controllers.UserController",
+    "Method": "GetUserByUserId",
+    "RelativePath": "api/User/GetUserByUserId/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "be_dotnet_core_first.Database.Entity.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "be_dotnet_core_first.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

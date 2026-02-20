@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("be-dotnet-core-first")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90d4d5ffcc770d13e1be303f8c7057dc545ee6ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("be-dotnet-core-first")]
 [assembly: System.Reflection.AssemblyTitleAttribute("be-dotnet-core-first")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
